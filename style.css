@@ -46,6 +46,7 @@ a {
   color: #192655;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  box-sizing: border-box;
 }
 
 .container_anime {
