@@ -1,0 +1,69 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3f0ca;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding-top: 20px;
+  background-color: #a9b388;
+}
+
+h1 {
+  text-align: center;
+  color: #192655;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+video {
+  width: 900px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+
+  /* background-color: #5f6f52; */
+}
+
+a {
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #192655;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.container_anime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime {
+  width: 300px;
+  background-color: #fefae0;
+  padding: 6px;
+  margin: 10px;
+  flex-direction: row;
+  border-radius: 6px;
+}
+
+#sinopsis {
+  padding: 20px;
+}
